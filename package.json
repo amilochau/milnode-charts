@@ -1,0 +1,35 @@
+{
+  "name": "milnode-charts",
+  "version": "0.1.0",
+  "description": "Highcharts improvement data",
+  "author": {
+    "name": "Antoine Milochau",
+    "email": "amilochau@outlook.com"
+  },
+  "homepage": "https://github.com/amilochau/milnode-charts#readme",
+  "bugs": "https://github.com/amilochau/milnode-charts/issues",
+  "repository": "github:amilochau/milnode-charts",
+  "keywords": [
+    "vue",
+    "vuejs",
+    "components",
+    "vuetify",
+    "milnode",
+    "highcharts"
+  ],
+  "license": "MIT",
+  "files": [
+    "src/*",
+    "public/*",
+    "*.json",
+    "*.js"
+  ],
+  "dependencies": {
+    "highcharts": "^7.1.1",
+    "highcharts-vue": "^1.2.0",
+    "mixin-deep": "^2.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
