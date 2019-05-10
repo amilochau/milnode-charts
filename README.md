@@ -43,13 +43,7 @@ If you want to propose code source changes, please follow the steps below.
 
   import { mapGetters } from 'vuex' // This is used to known the current theme defined in MilNode
    ```
-4. Create your chart, using `highcharts-vue`:
-  ```html
-  <template>
-    <highcharts :options="chartOptions"/>
-  </template>
-  ```
-5. Define chart data from MilNode Charts resources:
+4. Define chart data from MilNode Charts resources:
   ```js
   export default {
     computed: {
@@ -78,4 +72,10 @@ If you want to propose code source changes, please follow the steps below.
         }, this.chartsTheme)
       }
     }
+  ```
+5. Create your chart, using `highcharts-vue`:
+  ```html
+  <template>
+    <highcharts :options="chartOptions"/>
+  </template>
   ```
